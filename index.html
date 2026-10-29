@@ -1365,7 +1365,7 @@ render();
 if(autoN)toast(autoN+' transaksi berulang dicatat otomatis');
 initCloud();
 if('serviceWorker' in navigator&&location.protocol!=='file:'){window.addEventListener('load',()=>navigator.serviceWorker.register('sw.js').catch(()=>{}));}
-(function(){const sp=$('#splash');if(!sp)return;const hide=()=>{if(sp.classList.contains('hide'))return;sp.classList.add('hide');setTimeout(()=>sp.remove(),650);};sp.addEventListener('click',hide);setTimeout(hide,Math.max(400,4200-(performance.now()-splashT0)));})();
+(function(){const sp=$('#splash');if(!sp)return;const hide=()=>{if(sp.classList.contains('hide'))return;sp.classList.add('hide');setTimeout(()=>sp.remove(),650);};sp.addEventListener('click',hide);setTimeout(hide,Math.max(400,3200-(performance.now()-splashT0)));})();
 </script>
 </body>
 </html>
