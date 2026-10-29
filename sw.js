@@ -1,6 +1,6 @@
 // Lumbung Duit: service worker untuk mode offline.
 // Saat memperbarui aplikasi, naikkan nomor versi di bawah (misalnya v2) agar HP mengambil file baru.
-const VERSION = 'lumbung-duit-v1';
+const VERSION = 'lumbung-duit-v1.1';
 const FONTS = VERSION + '-fonts';
 const CORE = ['./', './index.html', './manifest.json', './icons/icon-192.png', './icons/icon-512.png',
   './icons/icon-maskable-512.png', './icons/apple-touch-icon.png', './icons/favicon-48.png', './icons/logo.svg'];
